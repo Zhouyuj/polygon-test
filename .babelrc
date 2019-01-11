@@ -1,7 +1,10 @@
 {
-  "presets": ["env"],
-  "plugins": [
-    "add-module-exports",
-    "array-includes"
+  "presets": [
+    [
+      "es2015",
+      {
+        "modules": false
+      }
+    ]
   ]
 }
